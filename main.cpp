@@ -96,7 +96,7 @@ int main() {
     Array<Facility*> arr(n + m);
 
     input(n, m, arr);
-    cout << "Our shop list:\n";
+    cout << "list of Clinics:\n";
     output(n + m, arr);
 
     show_iterator_work(arr);
